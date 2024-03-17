@@ -19,11 +19,11 @@ fmt: ## Format the project using cargo
 	cargo fmt
 
 test: ## Execute tests using cargo
-	// @rustup component add ? 2> /dev/null
+	## @rustup component add ? 2> /dev/null
 	cargo test
 
 doc: ## Generate documentation using cargo
-	// @rustup component add ? 2> /dev/null
+	## @rustup component add ? 2> /dev/null
 	cargo doc
 
 bump: ## Bump the version number
